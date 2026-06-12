@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "expense-tracker-cli"
+version = "1.0.0"
+description = "A simple command line expense tracker backed by SQLite"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Jaypal Chauhan" }]
+requires-python = ">=3.9"
+keywords = ["expense", "tracker", "cli", "budget", "finance"]
+
+[project.scripts]
+expense = "expense_tracker.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["expense_tracker*"]
