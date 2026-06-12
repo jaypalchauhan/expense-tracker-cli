@@ -13,7 +13,13 @@ SQLite database — no accounts, no cloud, your data stays on your machine.
 
 ## Installation
 
-Requires Python 3.9+.
+Requires Python 3.9+. Install the latest packaged release directly:
+
+```bash
+pip install https://github.com/jaypalchauhan/expense-tracker-cli/releases/download/v1.0.0/expense_tracker_cli-1.0.0-py3-none-any.whl
+```
+
+Or from source:
 
 ```bash
 git clone https://github.com/jaypalchauhan/expense-tracker-cli.git
